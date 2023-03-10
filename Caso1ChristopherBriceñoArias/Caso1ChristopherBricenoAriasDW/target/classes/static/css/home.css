@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', serif;
+}
+body{
+    background-color: #4a4a4a;
+}
+/* Header*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  header.abajo{
+    background: rgb(0, 0, 0);
+    padding: 2px 5px;
+  }
+  header .menu{
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 2em;
+    letter-spacing: 1px;
+    transition: 1s;
+  }
+  nav{
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    transition: all 0.5s ease;
+  }
+  .nav .container-logo .logo{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+
+  }
+  
+  header ul{
+    position: relative;
+    display: flex;
+  }
+  
+  header ul li{
+    list-style: none;
+    margin: 10px;
+  }
+  
+  header ul li a{
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    letter-spacing:0.6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .nav.active{
+    background-color: #ea0707;
+    
+  }
+  .menu li a:hover{
+    padding: 5px 10px;
+    background: #fcdb08;
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  .container-logo h1{
+    margin-left: 75px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+  }
+  header.abajo .menu,
+  header.abajo ul li a,header.abajo h1{
+    color: rgb(255, 255, 255);
+  }
+ .container{
+    margin-top: 300px;
+
+ }
+ .container .texto h1{
+    color: #ffffff;
+    margin-left: 20px;
+ }
+ .container .texto p{
+
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 700px;
+    margin-block-end: 50px;
+    text-align: justify-all;
+    margin-top: 10px;
+    font-size: 18px;
+    
+ }
+ .container .texto .cine{
+    margin-right: 150px;
+    float: right ;
+ }
+ .container .texto .boton{
+    margin-left: 20px;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+ }
+
+
+  
+  /*  Header End*/
