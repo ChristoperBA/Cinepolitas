@@ -5,7 +5,7 @@
     font-family: 'Signika Negative', serif;
 }
 body{
-    background-color: #4a4a4a;
+    background-color: #1a1a1a;
 }
 /* Header*/
 header{
@@ -40,7 +40,7 @@ header{
   }
   .nav .container-logo .logo{
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
     border-radius: 50px;
 
   }
@@ -71,23 +71,17 @@ header{
   }
   .menu li a:hover{
     padding: 5px 10px;
-    background: #fcdb08;
-    color: #ffffff;
+    background: #ffe11b;
+    color: #000000;
     border-radius: 15px;
   }
-  .container-logo h1{
-    margin-left: 75px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    
-  }
+
   header.abajo .menu,
   header.abajo ul li a,header.abajo h1{
     color: rgb(255, 255, 255);
   }
  .container{
-    margin-top: 300px;
+    margin-top: 250px;
 
  }
  .container .texto h1{
